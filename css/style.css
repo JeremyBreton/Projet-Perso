@@ -7,11 +7,20 @@ html {
 
 
 body {
-	font-family: 'Limelight', cursive;;
-    display: flex;
+	font-family: 'Limelight', cursive;
     height: 100vh;
+}
+
+header{
+    display: flex;
     padding: 20px;
     justify-content: space-between;
+}
+
+div{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
 }
 
 h1{
@@ -23,4 +32,24 @@ h2{
     font-size: 50px;
     color:#f890e7;
     text-align: right;
+}
+
+button{
+    background-color: #f890e7;
+    box-shadow: 6px 6px #0bd3d3;
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px 100px;
+    top: 0;
+    left: 0;
+    position: relative;
+    font-family: 'Limelight', cursive;
+}
+
+button:hover{
+    box-shadow: 3px 3px #0bd3d3;
+    transition: all .15s linear 0s;
+    top:3px;
+    left:3px;
 }
