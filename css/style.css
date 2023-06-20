@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: 'broadwaydregular';
     src: url('/fonts/BroadwayD/broadwayd-webfont.woff2') format('woff2'),
          url('/fonts/BroadwayD/broadwayd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 html {
     background-image: url(../images/background-miamivice.jpg);
@@ -14,7 +14,8 @@ html {
 
 
 body {
-	font-family: 'broadwaydregular', Arial, sans-serif;
+	/* font-family: 'broadwaydregular', Arial, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif
     display: flex;
     height: 100vh;
     padding: 20px;
