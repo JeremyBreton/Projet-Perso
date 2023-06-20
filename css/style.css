@@ -22,11 +22,13 @@ body {
 }
 
 h1{
+    font-family: 'broadwaydregular', Arial, sans-serif;
     font-size: 100px;
     color: #0bd3d3;
 }
 
 h2{
+    font-family: 'broadwaydregular', Arial, sans-serif;
     font-size: 50px;
     color:#f890e7;
     text-align: right;
